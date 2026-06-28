@@ -1,16 +1,34 @@
-# React + Vite
+# Text Translator App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple text translator web app built with React and Tailwind CSS.
+Translates English text into Hindi, Punjabi, and Gujarati using Google Translator RapidAPI.
 
-Currently, two official plugins are available:
+## Screenshot
+[<img width="1818" height="890" alt="Screenshot 2026-06-28 092042" src="https://github.com/user-attachments/assets/9d41955b-b4a5-4363-9706-3ff885547e61" /> ]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Tech Stack
+- React 19
+- Tailwind CSS
+- Vite
+- Lucide React
+- Google Translator API (RapidAPI)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Translate English text into multiple Indian languages
+- Supports Hindi, Punjabi and Gujarati
+- Loading spinner while translating
+- Clean minimal UI
 
-## Expanding the ESLint configuration
+## Run Locally
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+- Fetching data from RapidAPI
+- Managing state with useState
+- Handling async/await and loading states
+- Building UI with Tailwind CSS
+
+## Author
+Nikhil — @Nikhil245207
